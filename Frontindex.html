@@ -1,0 +1,105 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="stylesheet" href="../css/style.css" type="text/css"> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Notice Board</title>
+    <link rel="stylesheet" href="./assets/css/frontIndex.css">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand pr-2" href="https://sigce.edu.in">
+            <img src="./assets/images/sigcelogo.png" class="img-responsive" width="70px" height="60px">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link pl-2" href="#">General<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pl-2">
+                    <a class="nav-link active" href="./Dept.html">Department</a>
+                </li>
+                <!-- <li class="nav-item pl-2">
+                    <a class="nav-link active" href="#">FE</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link pl-2" href="#">Electrical</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link pl-2" href="#">EXTC</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link pl-2" href="#">Computer</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link pl-2" href="#">Mechanical</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link pl-2" href="#">Instrumentation</a>
+                </li> -->
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a class="btn btn-success" href="login.html" role="button">Sign in</a>
+            </form>
+        </div>
+    </nav>
+    <!--Notice Full Div Start-->
+    <div class="noticefull container border-solid bg-light my-4 py-4 m-xs-4 rounded">
+
+        <div class="noticehead">Notice Board</div>
+        <!--Notice Body Start-->
+        <div class="noticebody pl-2">
+            <marquee id="feeds" direction="down" scrolldelay="180" onmouseover="this.stop();"
+                onmouseout="this.start();">
+
+                <!-- <div class="feed">
+                    <img src="Portalsigce/images/new.gif"><a href="#">Practical paper for BSC II classes will be held 24
+                        OCT 2019</a>
+                </div> -->
+
+            </marquee>
+
+        </div>
+        <!--Notice Body End-->
+    </div>
+    <!--Notice Full Div End-->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

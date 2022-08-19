@@ -1,0 +1,26 @@
+.noticehead {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.noticebody,a{
+    text-decoration: none;
+    color: black;
+}
+.noticefull
+{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .2);
+
+}
+.nav-link{
+    font-weight: 500;
+}
+.navbar-brand
+{
+    z-index: 1;
+}
+.feed
+{
+margin-bottom  : 10px;
+}

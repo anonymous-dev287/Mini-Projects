@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/portal.css">
+
+</head>
+
+<body>
+    <!--Navbar start-->
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand " href="#"><img src="./assets/images/sigcelogo.png " class="img-responsive"
+                    width="70px" height="50px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                   <!--  <li class="nav-item active">
+                        <a class="nav-link pl-4" href="notice.html">COMPS <span class="sr-only">(current)</span></a>
+
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link pl-4" href="notice.html">EXTC <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link pl-4" href="notice.html">ELEC <span class="sr-only">(current)</span></a>
+
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link pl-4" href="notice.html">MECH <span class="sr-only">(current)</span></a>
+
+                    </li> -->
+                </ul>
+
+ 
+                <form class="form-inline float-right my-2 my-lg-0">
+                    <a class="btn btn-danger btn-outline-danger btn-sm btn " href="Frontindex.html" role="button">Sign Out</a>   <!-- Added outline-danger & align to right -->
+
+                </form>
+            </div>
+        
+
+            </div>
+        </nav>
+        <!--Navbar end-->
+        <!--start-->
+        <form action="" method="post">
+            <!-- <h3>Hello</h3> -->
+            <div class="greet">Hello <span id="username">user</span>,</div>
+
+            <div class="container">
+                <div class="col-md-3 mb-3">
+                    <label>Message</label>
+                    <select class="custom-select" id="Messagedrop" onchange="getOption()" required>
+                        <option>Select a Message</option>
+                        <option>Today is holiday due to heavy rain &nbsp;</option>
+                        <option>Today is holiday on account of &nbsp;</option>
+
+                    </select>
+                    <form action="/action_page.php">
+
+                          <div class= my-2>Add Custom Message:</div>
+
+  <input type="text" class="px-2" placeholder="Custom Message" name="custom" >
+  <button type="submit" class="my-2 border-top-0 " id="custom"> Add</button> <!--  onsubmit data should be go to Message(pending) -->
+
+</form>
+                </div>
+
+
+                <div class="col-md-8 col-sm-8">
+                    <div class="form-group">
+                        <textarea name="txtMsg" class="form-control" id="Messagerec" placeholder="* Your Message *"
+                            style="width: 100%; height: 150px;"></textarea>
+                    </div>
+                    <div class="form-group">
+                          <div class="custom-file "><hr>
+                        <input  type="file" class="float-left border-right-0">
+
+
+                        <button class="btn btn-outline-primary p-1 float-right" type="submit">Send message</button>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </form>
+        <!-- <span class="counter animated-first" data-speed="1300" data-from="0" data-to="95">95</span>
+        end-->
+        <div></div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <script>
+            function getOption() {
+                selectElement = document.querySelector('#Messagedrop');
+                output = selectElement.value;
+                document.querySelector('#Messagerec').innerHTML = output;
+            } 
+        </script>
+           
+    </body>
+
+</html>
