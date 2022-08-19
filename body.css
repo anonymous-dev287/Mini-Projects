@@ -1,0 +1,39 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/pic3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+    .main-nav li {
+        display: inline-block;
+        border-radius: 50%;
+    }
+
+.btn {
+    border: 1px solid white;
+}
+
+    .btn:hover {
+        color: red;
+        border: 1px solid red;
+        background-color: yellow;
+    }
+
+.btn {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
