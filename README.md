@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @anonymous-dev287
-- 👀 I’m interested in Python,ML,DL and developing web proj
-- 🌱 I’m currently learning Oracle+Azure
-- 💞️ I’m looking to collaborate on ...
+- 👀 I’m interested in Python,ML,DL and developing web projects
+- 🌱 I’m currently learning JAVA FSD
+- 💞️ I’m looking to collaborate on JAVA FSD stuffs.
 - 📫 How to reach me {vikassingh200028@gmail.com}
 
 <!---
